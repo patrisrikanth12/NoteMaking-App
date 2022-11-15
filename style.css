@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: teal;
+    color: white;
+    padding: 1em;
+}
+
+header h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.note-input {
+    width: 90%;
+    max-width: 250px;
+    margin: 0px auto;
+    margin-top: 3em;
+}
+
+.note-form input {
+    padding: 0.5em;
+}
+
+input[type=submit] {
+    background-color: teal;
+    color: #fff;
+}
+
+.note-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 1em;
+}
+
+.notes {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0px auto;
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.note {
+    background-color: #fff;
+    min-width: 200px;
+    max-width: 22%;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.note-text {
+    margin-bottom: 0.5em;
+}
+
+.note-options {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+}
+
+.note-options button {
+    font-size: 1.5em;
+    border: none;
+    background-color: transparent;
+}
+
+.bi {
+    display: block;
+    padding: 0.25em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.bi-pen {
+    background-color: rgb(210, 255, 255);
+    color: teal;
+}
+
+.bi-trash {
+    background-color: rgb(255, 211, 211);
+    color: red;
+}
